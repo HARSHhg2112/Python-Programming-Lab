@@ -1,0 +1,3 @@
+items():- it return view key value pair 
+a={"name":"harsh","class":"4","height":"6 foot"}
+print(a.items())
