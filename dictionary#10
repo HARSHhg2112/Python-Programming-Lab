@@ -1,0 +1,6 @@
+set default() :- import key with value if key is not present
+a={"name":"harsh","sec":"l","rolln":21}
+a.setdefault("cpi","8.5")
+print(a)  #{'name': 'harsh', 'sec': 'l', 'rolln': 23, 'cpi': '8.5'}
+a.setdefault("name","harshu")
+print(a) # same because key is already present.
