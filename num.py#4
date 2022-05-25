@@ -1,0 +1,9 @@
+#Python program to append values to start and the end of an array-
+import numpy as np
+x = [100, 200, 300]
+print("Original array:")
+print(x)
+x = np.append([400, 500, 600],x)
+x1=np.append(x,[700,800,900])
+print("After appending values:")
+print(x1)
