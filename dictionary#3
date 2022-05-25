@@ -1,0 +1,4 @@
+ python dictionary print keys(),value()
+a={"name":"rishi","class":"4","height":"6 foot"}
+print(a.keys(),type(a.keys()))
+print(a.values(),type(a.values()))
