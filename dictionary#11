@@ -1,0 +1,5 @@
+ update():---  update dictionary  work as "old_dict.update(new_dict)"
+a={'name': 'harsh', 'sec': 'l', 'rolln': 21, 'cpi': '8.5'}
+b={"name":"harshu","B.G":"B+"}
+a.update(b)
+print(a)  #{'name': 'harshu', 'sec': 'l', 'rolln': 21, 'cpi': '8.5', 'B.G': 'B+'}'''
