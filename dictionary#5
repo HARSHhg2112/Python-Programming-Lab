@@ -1,0 +1,3 @@
+using pop:
+print(a.pop("class")) #it returns its value and delete key:value
+print(a)
