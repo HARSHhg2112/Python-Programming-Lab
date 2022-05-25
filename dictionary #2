@@ -1,0 +1,5 @@
+ python dictionary clear(): its clear all (keys,value) pair and also del dict
+a={"name":"rishi","class":"4","height":"6 foot"}
+print(a)
+a.clear()
+print("after clear",a)
