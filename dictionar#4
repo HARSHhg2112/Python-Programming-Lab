@@ -1,0 +1,6 @@
+for deleting element in dictionary
+
+#a). by using del:
+a={"name":"rishi","class":"4","height":"6 foot"}
+del a["name"]  #it does not return anything its directly delete key:pair
+print(a)
