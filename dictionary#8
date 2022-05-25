@@ -1,0 +1,5 @@
+ get():- it return value of keys if key not find it return none but normal method return error
+a={"name":"harsh","class":"4","height":"6 foot"}
+print(a.get("name"))  #Harsh
+print(a.get("school")) #none
+print(a["school"]) #key error'''
