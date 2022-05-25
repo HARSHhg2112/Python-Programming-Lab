@@ -1,0 +1,11 @@
+using popitem:
+a={"name":"rishi","class":"4","height":"6 foot"}
+print(a.popitem()) #it return key:value as tuple and remove arbitary pair
+print(a)
+
+
+(#). copy() its copy dict to another variable without its address meta if we change anything in b dict there is no 
+# effect a dict.
+a={"name":"rishi","class":"4","height":"6 foot"}
+b=a.copy()
+print(b)
