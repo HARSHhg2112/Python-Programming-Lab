@@ -1,0 +1,4 @@
+ fromkeys :- it creates dict with a sequence(any sequence)
+a="ufftft"
+b=0
+print(dict.fromkeys(a,b))
